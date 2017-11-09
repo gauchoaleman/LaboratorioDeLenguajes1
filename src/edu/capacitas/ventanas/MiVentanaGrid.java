@@ -11,7 +11,7 @@ public class MiVentanaGrid extends JFrame {
         setSize(400, 300);
         setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
         Container cp = getContentPane();
-        GridLayout gl = new GridLayout(4, 3);
+        GridLayout gl = new GridLayout(5, 3);
         gl.setHgap(5);
         gl.setVgap(5);
         cp.setLayout(gl);
@@ -21,6 +21,10 @@ public class MiVentanaGrid extends JFrame {
         cp.add(new JButton("*"));
         cp.add(new JButton("0"));
         cp.add(new JButton("#"));
+        cp.add(new Button("Espera"));
+        cp.add(new Button("Llamar"));
+        cp.add(new Button("Colgar"));
+
     }
 }
 
