@@ -10,6 +10,9 @@ public class VentanaTest {
 
         MiVentana miventana2 = new MiVentana("Titulo ventana",200,180);
         miventana2.setVisible(true);
+
+        MiVentanaGrid miventanagrid= new MiVentanaGrid();
+        miventanagrid.setVisible(true);
     }
 
 }
