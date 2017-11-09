@@ -13,6 +13,9 @@ public class VentanaTest {
 
         MiVentanaGrid miventanagrid= new MiVentanaGrid();
         miventanagrid.setVisible(true);
+
+        MiVentanaPanel miventanapanel= new MiVentanaPanel();
+        miventanapanel.setVisible(true);
     }
 
 }

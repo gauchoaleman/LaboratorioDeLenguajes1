@@ -18,12 +18,12 @@ public class MiVentanaGrid extends JFrame {
         for (int i = 1; i <= 9; i++) {
             cp.add(new Button(String.valueOf(i)));
         }
-        cp.add(new JButton("*"));
-        cp.add(new JButton("0"));
-        cp.add(new JButton("#"));
-        cp.add(new Button("Espera"));
-        cp.add(new Button("Llamar"));
-        cp.add(new Button("Colgar"));
+        cp.add(new Button("*"));
+        cp.add(new Button("0"));
+        cp.add(new Button("#"));
+        cp.add(new JButton("Espera"));
+        cp.add(new JButton("Llamar"));
+        cp.add(new JButton("Colgar"));
 
     }
 }
